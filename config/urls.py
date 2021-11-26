@@ -21,4 +21,5 @@ from project.views import Paisestest
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('paisestest/', Paisestest.as_view()),
+    path('', Paisestest.as_view()),
 ]
